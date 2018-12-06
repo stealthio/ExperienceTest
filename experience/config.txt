@@ -1,0 +1,19 @@
+dig_experience_table = {
+	["default:dirt"] = 0,
+	["default:dirt_with_snow"] = 0,
+	["default:torch"] = 0,
+	["default:tree"] = 2,
+	["default:pine_tree"] = 2,
+	["default:stone_with_coal"] = 3,
+	["default:stone_with_copper"] = 5,
+	["default:stone_with_iron"] = 7,
+	["default:stone_with_gold"] = 10,
+	["default:stone_with_diamond"] = 20,
+	["default:stone_with_mese"] = 50
+}
+
+dig_default_experience = 1
+display_hud = true
+fct_on_levelup = function(player)
+	--increase_stat(player)
+end

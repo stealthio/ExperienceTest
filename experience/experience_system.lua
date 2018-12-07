@@ -144,6 +144,9 @@ function add_experience(player, amount)
 	end
 	
 	local meta = player:get_meta()
+	if not meta then
+		return
+	end
 	local oldExp = meta:get_int("experience")
 	meta:set_int("experience", oldExp + amount)
 	
